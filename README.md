@@ -182,12 +182,17 @@ const attemptSolflareConnect = async () => {
 }
 ```
 
+### Initial screen where user is choosing a quest.
 ![Initial screen where user is choosing a quest.](/images/q-1.png)
 
+### User has chosen a quest and verified captcha.
 ![User has chosen a quest and verified captcha.](/images/q-2.png)
 
+### Wallet has opened and user is signing transaction.
 ![Wallet has opened and user is signing transaction.](/images/q-3.png)
 
+### Data passed to API and awaiting response.
 ![Data passed to API and awaiting response.](/images/q-4.png)
 
+### The quest is underway!
 ![The quest is underway!](/images/q-5.png)
