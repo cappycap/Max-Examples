@@ -89,7 +89,7 @@ const verifyTransaction = async (tx, storage, address) => {
 ## Quests.js (Frontend Example)
 This file demonstrates using the solana library to connect a wallet to the site. Notice the functions imported in the file from API.js and the role they play in contacting the questing API. This file also can create a transaction based on props passed by a parent component.
 
-These props include functions to update data in the parent, data about the quest, the NFT, and a provider passed that was generated like so. I have also included an images directory that has screenshots of various steps that you can also see in Quests.js.
+These props include functions to update data in the parent, data about the quest, the NFT, and a provider passed that was generated like so. I have also included an images directory that has screenshots of various steps that you can also see in Quests.js, below the code.
 
 ```javascript
 const selectSpecificWallet = async (n) => {
@@ -181,3 +181,13 @@ const attemptSolflareConnect = async () => {
     
 }
 ```
+
+![Initial screen where user is choosing a quest.](/images/q-1.png)
+
+![User has chosen a quest and verified captcha.](/images/q-2.png)
+
+![Wallet has opened and user is signing transaction.](/images/q-3.png)
+
+![Data passed to API and awaiting response.](/images/q-4.png)
+
+![The quest is underway!](/images/q-5.png)
